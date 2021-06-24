@@ -1,3 +1,9 @@
+# Resultado del codigo
+
+
+![alt text](https://raw.githubusercontent.com/Jilmer-Mayta-Condori/Dise-p-Primera-Interfaz/master/interfaz/asset/resultado1.png) 
+![alt text](https://raw.githubusercontent.com/Jilmer-Mayta-Condori/Dise-p-Primera-Interfaz/master/interfaz/resultado1.png) 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
