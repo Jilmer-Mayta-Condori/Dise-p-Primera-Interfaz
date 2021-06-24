@@ -1,0 +1,166 @@
+* {margin: 0; padding: 0;}
+
+.first_barra {
+  height: 30px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2px;
+  padding: 10px;
+}
+.first_barra h1 {
+  float: left; 
+  text-align: left;
+  font: bold 20px/1.5 "Comic Sans MS";
+}
+
+.first_barra img {
+  height: 100%;
+  float: right;
+}
+
+.activity_chat{
+  margin-top: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2px;
+  padding-left: 10px;
+  height: 110px;
+}
+
+.activity_chat h1 {
+  text-align: left;
+  font: bold 20px/1.5 "Comic Sans MS";
+}
+
+.activity_chat .lista_activity{
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.activity_chat .lista_activity img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 5%;
+}
+ 
+.mensajes{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+  font: bold 20px/1.5 "Comic Sans MS";
+}
+
+
+h3 {
+  font: bold 15px/1.5 Helvetica, Verdana, sans-serif;
+  margin-left: 60px;
+  padding-top: 4px;
+  text-align: left;
+  /* border: solid 1px black; */
+}
+ 
+.lista_mensajes .center img {
+  float: left;
+  margin: 0 0 0 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ 
+.lista_mensajes .center p {
+  font: bold 12px/1.5 "Candara Light" ;
+  margin-left: 60px;
+  text-align: left;
+}
+ 
+.lista_mensajes {
+  height: 60px;
+  padding: 10px;
+}
+ 
+.lista_mensajes:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.center{
+  float: left;
+}
+
+.notifi{
+  padding-top: 2px;
+  font: 200 8px/1.5 "Comic Sans MS" ;
+}
+
+.notifi .numero{
+  margin-top: 2px;
+  background-color: #1DDC4A;
+  font-size: 12px;
+  color: white;
+  padding: 3px;
+  margin-left: 250px;
+  margin-right: 60px;
+  border-radius: 50%;
+}
+.notifi .fecha{
+  color: #1DDC4A;;
+  font-size: 12px;
+}
+
+
+/* ******************************************** */
+/* ***************Navbar bottom**************** */
+/* ******************************************** */
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2CBF4F;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+  height: 30px;
+}
+
+.navbar a img {
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
